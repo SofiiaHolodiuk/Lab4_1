@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Робота з анімаціями</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="1161953_instagram_icon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cent">    
+      <div class="fon">
+      <h1>Робота з анімаціями </h1>
+      <img src="leaflet.jpg" alt="sorry" class="leaflet_img">
+    
+
+    
+      <img src="flower-svgrepo-com.svg" alt="sorry" class="svg" width=450px height=500px>
+    </div>
+    <div class="birds">
+        <div class="birds__hatdove">
+          <div class="birds__hatdove-shadow"></div>
+          <div class="birds__hatdove-head">
+            <div class="birds__hatdove-hat"></div>
+            <div class="birds__hatdove-forehead"></div>
+            <div class="birds__hatdove-eye"></div>
+            <div class="birds__hatdove-eye"></div>
+            <div class="birds__hatdove-beak"></div>
+          </div>
+          <div class="birds__hatdove-backwing"></div>
+          <div class="birds__circles-1"></div>
+          <div class="birds__hatdove-backleg">
+            <div class="birds__curly"></div>
+          </div>
+          <div class="birds__hatdove-body"></div>
+          <div class="birds__hatdove-frontleg">
+            <div class="birds__curly"></div>
+          </div>
+          <div class="birds__hatdove-frontwing"></div>
+          <div class="birds__circles-2"></div>
+          <div class="birds__hatdove-frontwing-finger"></div>
+          <div class="birds__hatdove-frontwing-finger"></div>
+          <div class="birds__hatdove-frontwing-finger"></div>
+        </div>
+        <div class="birds__table">
+          <div class="birds__table-shadow"></div>
+        </div>
+        <div class="birds__laptop"></div>
+        <div class="birds__laptop">
+          <div class="birds__monitor">
+            <div class="birds__code"></div>
+          </div>
+        </div>
+        <div class="birds__coffee"></div>
+        <div class="birds__feather"></div>
+        <div class="birds__feather"></div>
+        <div class="birds__rundove-shadow"></div>
+        <div class="birds__rundove">
+          <div class="birds__rundove-backwing">
+            <div class="birds__finger"></div>
+            <div class="birds__finger"></div>
+            <div class="birds__finger"></div>
+            <div class="birds__circles"></div>
+          </div>
+          <div class="birds__rundove-head">
+            <div class="birds__rundove-eye"></div>
+            <div class="birds__rundove-eye"></div>
+            <div class="birds__rundove-beak"></div>
+          </div>
+          <div class="birds__rundove-backleg">
+            <div class="birds__curly"></div>
+          </div>
+          <div class="birds__rundove-body"></div>
+          <div class="birds__rundove-frontleg">
+            <div class="birds__curly"></div>
+          </div>
+          <div class="birds__rundove-frontwing">
+            <div class="birds__finger"></div>
+            <div class="birds__finger"></div>
+            <div class="birds__finger"></div>
+            <div class="birds__circles"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <canvas class="canvas"></canvas>
+ 
+
+    <div class="help">?</div> 
+    
+    <div class="ui">
+      <input class="ui-input" type="text" />
+      <span class="ui-return">↵</span>
+    </div>
+    
+    <div class="overlay">
+      <div class="tabs">
+        <div class="tabs-labels"><span class="tabs-label">Commands</span><span class="tabs-label">Info</span><span class="tabs-label">Share</span></div>
+    
+        <div class="tabs-panels">
+          <ul class="tabs-panel commands">
+            <li class="commands-item"><span class="commands-item-title">Text</span><span class="commands-item-info" data-demo="Hello :)">Type anything</span><span class="commands-item-action">Demo</span></li>
+            <li class="commands-item"><span class="commands-item-title">Countdown</span><span class="commands-item-info" data-demo="#countdown 10">#countdown<span class="commands-item-mode">number</span></span><span class="commands-item-action">Demo</span></li>
+            <li class="commands-item"><span class="commands-item-title">Time</span><span class="commands-item-info" data-demo="#time">#time</span><span class="commands-item-action">Demo</span></li>
+            <li class="commands-item"><span class="commands-item-title">Rectangle</span><span class="commands-item-info" data-demo="#rectangle 30x15">#rectangle<span class="commands-item-mode">width x height</span></span><span class="commands-item-action">Demo</span></li>
+            <li class="commands-item"><span class="commands-item-title">Circle</span><span class="commands-item-info" data-demo="#circle 25">#circle<span class="commands-item-mode">diameter</span></span><span class="commands-item-action">Demo</span></li>
+    
+            <li class="commands-item commands-item--gap"><span class="commands-item-title">Animate</span><span class="commands-item-info" data-demo="The time is|#time|#countdown 3|#icon thumbs-up"><span class="commands-item-mode">command1</span>&nbsp;|<span class="commands-item-mode">command2</span></span><span class="commands-item-action">Demo</span></li>
+          </ul>
+    
+          <div class="tabs-panel ui-details">
+            <div class="ui-details-content">
+              <h1>Shape Shifter</h1>
+              <p>
+                An expezriment by <a href="//www.kennethcachia.com" target="_blank">Kenneth Cachia<a/>.<br/>
+                <a href="//fortawesome.github.io/Font-Awesome/#icons-new" target="_blank">Font Awesome</a> is being used to render all #icons.
+              </p>
+    
+              <br/><p>Visit <a href="http://www.kennethcachia.com/shape-shifter/?a=#icon thumbs-up" target="_blank">Shape Shifter</a> to use icons.</p>
+            </div>
+          </div>
+    
+          <div class="tabs-panel ui-share">
+            <div class="ui-share-content">
+              <h1>Sharing</h1>
+              <p>Simply add <em>?a=</em> to the current URL to share any static or animated text. Examples:</p>
+              <p>
+                <a href="http://www.kennethcachia.com/shape-shifter?a=Hello" target="_blank">www.kennethcachia.com/shape-shifter?a=Hello</a><br/>
+                <a href="http://www.kennethcachia.com/shape-shifter?a=Hello|#countdown 3" target="_blank">www.kennethcachia.com/shape-shifter?a=Hello|#countdown 3</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
+      <circle cx="50" cy="50" r="20" fill="green">
+        <animate attributeName="r" values="20; 25; 20" dur="1s" repeatCount="indefinite" />
+        <animate attributeName="fill" values="green; darkgreen; green" dur="1s" repeatCount="indefinite" />
+      </circle>
+      <!-- Значок жвро в середині круга -->
+      <text x="50" y="50" text-anchor="middle" dy=".3em" font-size="15" fill="white">₴</text>
+    </svg>
+   <canvas class="canvas"></canvas>
+    
+    <div class="ui">
+      <input class="ui-input" type="text" />
+      <span class="ui-return">↵</span>
+    </div>
+    
+    <div class="overlay">
+      <div class="tabs">
+        <div class="tabs-labels"><span class="tabs-label">Commands</span><span class="tabs-label">Info</span><span class="tabs-label">Share</span></div>
+    
+        <div class="tabs-panels">
+          <ul class="tabs-panel commands">
+            <li class="commands-item"><span class="commands-item-title">Text</span><span class="commands-item-info" data-demo="Hello :)">Type anything</span><span class="commands-item-action">Demo</span></li>
+            <li class="commands-item"><span class="commands-item-title">Countdown</span><span class="commands-item-info" data-demo="#countdown 10">#countdown<span class="commands-item-mode">number</span></span><span class="commands-item-action">Demo</span></li>
+            <li class="commands-item"><span class="commands-item-title">Time</span><span class="commands-item-info" data-demo="#time">#time</span><span class="commands-item-action">Demo</span></li>
+            <li class="commands-item"><span class="commands-item-title">Rectangle</span><span class="commands-item-info" data-demo="#rectangle 30x15">#rectangle<span class="commands-item-mode">width x height</span></span><span class="commands-item-action">Demo</span></li>
+            <li class="commands-item"><span class="commands-item-title">Circle</span><span class="commands-item-info" data-demo="#circle 25">#circle<span class="commands-item-mode">diameter</span></span><span class="commands-item-action">Demo</span></li>
+    
+            <li class="commands-item commands-item--gap"><span class="commands-item-title">Animate</span><span class="commands-item-info" data-demo="The time is|#time|#countdown 3|#icon thumbs-up"><span class="commands-item-mode">command1</span>&nbsp;|<span class="commands-item-mode">command2</span></span><span class="commands-item-action">Demo</span></li>
+          </ul>
+    
+          <div class="tabs-panel ui-details">
+            <div class="ui-details-content">
+              <h1>Shape Shifter</h1>
+              <p>
+                An experiment by <a href="//www.kennethcachia.com" target="_blank">Kenneth Cachia<a/>.<br/>
+                <a href="//fortawesome.github.io/Font-Awesome/#icons-new" target="_blank">Font Awesome</a> is being used to render all #icons.
+              </p>
+    
+              <br/><p>Visit <a href="http://www.kennethcachia.com/shape-shifter/?a=#icon thumbs-up" target="_blank">Shape Shifter</a> to use icons.</p>
+            </div>
+          </div>
+    
+          <div class="tabs-panel ui-share">
+            <div class="ui-share-content">
+              <h1>Sharing</h1>
+              <p>Simply add <em>?a=</em> to the current URL to share any static or animated text. Examples:</p>
+              <p>
+                <a href="http://www.kennethcachia.com/shape-shifter?a=Hello" target="_blank">www.kennethcachia.com/shape-shifter?a=Hello</a><br/>
+                <a href="http://www.kennethcachia.com/shape-shifter?a=Hello|#countdown 3" target="_blank">www.kennethcachia.com/shape-shifter?a=Hello|#countdown 3</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+  <script src="move.js"></script>
+  <script>
+    window.onload = function() {
+        window.scrollTo(0, 0); // Прокручує сторінку до початку
+    };
+</script>
+</body>
+</html>

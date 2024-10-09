@@ -1,0 +1,15 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+	<title>Новый проект</title>
+	<defs>
+		<linearGradient id="g1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(166,0,0,154,105,167)">
+			<stop offset="0" stop-color="#97461a"/>
+			<stop offset=".3" stop-color="#fbd8c5"/>
+			<stop offset=".83" stop-color="#6c2e16"/>
+			<stop offset="1" stop-color="#efdbcd"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { fill: url(#g1);stroke: #000000;stroke-miterlimit:100;stroke-width: 3 } 
+	</style>
+	<path id="форма 1" class="s0" d="m188 244c-45.9 0-83-34.4-83-77 0-42.6 37.1-77 83-77 45.9 0 83 34.4 83 77 0 42.6-37.1 77-83 77z"/>
+</svg>
